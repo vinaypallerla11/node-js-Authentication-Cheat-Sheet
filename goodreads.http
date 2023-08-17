@@ -1,0 +1,27 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"sai",
+    "username":"sai123",
+    "password": "sai@456",
+    "gender": "Female",
+    "location":"hyderabad"
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"sai123",
+    "password": "sai@456"
+}
+
+###
+
+GET http://localhost:3000/books/
